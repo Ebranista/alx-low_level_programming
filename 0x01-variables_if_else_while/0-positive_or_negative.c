@@ -8,8 +8,7 @@
 
 /**
  * main - prints a random number and state whether
- * 	  it is negative,zero,or positive
- *
+ * 	  it is negative, zero, or positive.
  *
  * Return: Always 0.
  */
