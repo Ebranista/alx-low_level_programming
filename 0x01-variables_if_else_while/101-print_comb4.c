@@ -1,13 +1,13 @@
 /*
  * File: 101-print_comb4.c
- * Auth: Ebranista
+ * Auth: Brennan D Baraban
  */
 
 #include <stdio.h>
 
 /**
  * main - Prints all possible combinations of three different digits,
- * in ascending order, separated by a comma followed by a space.
+ *        in ascending order, separated by a comma followed by a space.
  *
  * Return: Always 0.
  */
@@ -24,18 +24,14 @@ int main(void)
 				putchar((digit1 % 10) + '0');
 				putchar((digit2 % 10) + '0');
 				putchar((digit3 % 10) + '0');
-
 				if (digit1 == 7 && digit2 == 8 && digit3 == 9)
-					continue;
-				
+                    continue;
 				putchar(',');
 				putchar(' ');
 			}
 		}
 	}
-
 	putchar('\n');
-
 	return (0);
 }
 
