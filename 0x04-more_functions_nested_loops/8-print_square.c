@@ -2,7 +2,7 @@
  * File: 8-print_square.c
  */
 
-#include "mian.h"
+#include "main.h"
 
 /**
  * print_square - Prints a squareusing the character #.
