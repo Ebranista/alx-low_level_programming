@@ -1,13 +1,13 @@
 #include "main.h"
 /**
  * print_rev - printes the reversed string
- *s: pointer to the string to print
- * Return: void
+ *@s: The string to be printed
  */
 
 void print_rev(char *s)
 {
 int index = 0;
+
 while (s[index])
 	index++;
 while (index--)
