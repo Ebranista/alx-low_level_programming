@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_rev - printes the reversed string
- * @s - string to be reversed
+ *s: pointer to the string to print
  * Return: void
  */
 
