@@ -1,10 +1,9 @@
-#include "variadic_functions"
+#include "variadic_functions.h"
 
 /**
- * print_numbers - print all the numbers passed in arg
+ * print_numbers - print all the numbers passed
  * @separator: character that separates the numbers
- * Description: printing numbers
- * @n: number of arguments
+ * @n: number of integers
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
