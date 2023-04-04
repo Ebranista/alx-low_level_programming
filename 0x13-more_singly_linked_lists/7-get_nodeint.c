@@ -6,7 +6,7 @@
  * @index: indext to find the node
  * Return: node or NULL (if node does not exist)
  */
-litint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
+listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
 	listint_t *x;
 	unsigned int i = 0;
