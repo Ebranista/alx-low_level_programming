@@ -14,9 +14,9 @@ unsigned int binary_to_unit(const char *b)
 
 	while (*b)
 	{
-		if (*b == 1)
+		if (*b == '1')
 			dec = (dec << 1) | 1;
-		else if (*b == 0)
+		else if (*b == '0')
 			dec <<= 1;
 		else
 			return (0);
