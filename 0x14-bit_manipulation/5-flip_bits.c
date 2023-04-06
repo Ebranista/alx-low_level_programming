@@ -22,7 +22,7 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 	for (i = 0; i < total_length; i++)
 	{
 		bit1 = n & 1;
-		bit2 = m & 2;
+		bit2 = m & 1;
 		if (bit1 != bit2)
 			count++;
 		n >>= 1;
@@ -41,7 +41,7 @@ unsigned int get_length(unsigned long int num)
 
 	if (num == 0)
 		return (1);
-	for (count = 0; num != 1; count++)
+	for (count = 0; num != 0; count++)
 		num >>= 1;
 	return (count);
 }
