@@ -5,7 +5,7 @@
  * @b: points to the string of 0's and 1's
  * Return: decimal format of a number
  */
-unsigned int binary_to_unit(const char *b)
+unsigned int binary_to_uint(const char *b)
 {
 	unsigned int dec = 0;
 
