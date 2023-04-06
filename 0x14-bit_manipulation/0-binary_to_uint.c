@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * binary_to_unit - convert binary to decimal
+ * binary_to_uint - convert binary to decimal
  * @b: points to the string of 0's and 1's
  * Return: decimal format of a number
  */
