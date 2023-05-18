@@ -1,1 +1,1 @@
-this first C repository of ALX
+this is 0x02-functions_nested_loop
